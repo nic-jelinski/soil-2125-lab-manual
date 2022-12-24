@@ -10,6 +10,7 @@ book:
   chapters:
     - index.qmd
     - laboratory-1.qmd
+    - laboratory-2.qmd
     - summary.qmd
     - references.qmd
 

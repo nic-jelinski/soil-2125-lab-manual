@@ -103,7 +103,9 @@ Slurry <- c("DI-H20", "NaCl", "AlCl3")
 Ion <- c("None", "Na+", "Al3+")
 WaterClarity <-c("","","")
 
-tab.1.1 <- data.frame(Slurry, Ion, WaterClarity) colnames(tab.1.1) = c("Slurry", "Ion", "Water Clarity")
+tab.1.1 <- data.frame(Slurry, Ion, WaterClarity)
+
+colnames(tab.1.1) = c("Slurry", "Ion", "Water Clarity")
 
 tab.1.1 %>% kbl(caption = "Observing Clay Flocculation", align = "ccc") %>% row_spec(0, bold = TRUE) %>% kable_classic(full_width = F, html_font = "Cambria")
 ```
